@@ -6,7 +6,7 @@
       [cdkDropListData]="pokemons"
       class="example-list"
       (cdkDropListDropped)="drop($event)">
-      <div class="row">
+      <div class="row p-2">
         <div class="example-box col-6"
              *ngFor="let poke of pokemons"
              cdkDrag>
@@ -28,7 +28,7 @@
       [cdkDropListData]="pokemons2"
       class="example-list"
       (cdkDropListDropped)="drop($event)">
-      <div class="row">
+      <div class="row p-3">
         <div class="example-box col-6"
              *ngFor="let poke of pokemons2"
              cdkDrag>
